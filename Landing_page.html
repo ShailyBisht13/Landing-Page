@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore Nature</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    } 
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #eaf6f6;
+      color: #333;
+    }
+    nav {
+      background: #004e64;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #f9a825;
+    }
+    header {
+      background: url('https://source.unsplash.com/1600x600/?himalayas') no-repeat center center/cover;
+      height: auto;
+      min-height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: white;
+      text-shadow: 2px 2px 6px #000;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px 20px;
+      padding-top: 20px;
+    }
+    header h1 {
+      font-size: 3.5em;
+      margin-bottom: 5px;
+      margin-top: 0;
+    }
+    header p {
+      font-size: 1.5em;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    .section {
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      margin-bottom: 20px;
+      font-size: 2em;
+      color: #004e64;
+    }
+    .btn {
+      background: #f9a825;
+      padding: 12px 24px;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #c77800;
+    }
+    .places {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .place {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 250px;
+      transition: transform 0.3s ease;
+    }
+    .place:hover {
+      transform: scale(1.05);
+    }
+    .place img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .place h3 {
+      padding: 10px;
+      font-size: 18px;
+      background: #f0f0f0;
+    }
+    footer {
+      background: #004e64;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5em;
+      }
+      header p {
+        font-size: 1.2em;
+      }
+    }
+    nav, header {
+  position: relative;
+}
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div style="background:#f9a825; color:#fff; text-align:center; padding:10px 0; font-weight:bold;">
+  🏞️ Monsoon Special: Flat 20% off on Uttarakhand Trekking Packages – Book Now!
+</div>
+<div style="background:#eaf6f6; padding:30px; text-align:center; font-size:1.2em;">
+  <em>“Wander where the Wi-Fi is weak, and the mountains speak.”</em><br/>
+  <strong>Reconnect with nature in the heart of the Himalayas.</strong>
+</div>
+  <header>
+    <h1>Discover The Mountain Route</h1>
+    <p>Adventure Awaits</p>
+  </header>
+  <div class="section" id="about">
+    <h2>Why Travel With Us?</h2>
+    <p>We offer safe and personalized the Mountain Route tours that blend adventure, culture, and breathtaking views.</p>
+  </div>
+  <div class="section" id="destinations">
+    <h2>Top Destinations</h2>
+    <div class="places">
+      <div class="place">
+        <img src="Untitled design.jpg" alt="Kedarnath" />
+        <h3>Kedarnath</h3>
+      </div>
+      <div class="place">
+        <img src="nanital.jpg" alt="Nainital" />
+        <h3>Nainital</h3>
+      </div>
+      <div class="place">
+        <img src="badarinath.jpg" alt="Badrinath" />
+        <h3>Badrinath</h3>
+      </div>
+      <div class="place">
+        <img src="DhariDeviMandir.jpeg" alt="Dhari Devi" />
+        <h3>Dhari Devi</h3>
+      </div>
+      <div class="place">
+        <img src="rafting.jpg" alt="Rishikesh" />
+        <h3>Rishikesh</h3>
+      </div>
+      <div class="place">
+        <img src="pithoraghar.jpg" alt="Pithoraghar" />
+        <h3>Pithoraghar</h3>
+      </div>
+      <div class="place">
+        <img src="tehri.webp" alt="Tehri" />
+        <h3>Tehri</h3>
+      </div>
+      <div class="place">
+        <img src="Bhadraj-Temple.webp" alt="Bhadraj Temple" />
+        <h3>Bhadraj Temple</h3>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="contact">
+    <h2>Ready to Explore?</h2>
+    <a href="#" class="btn">Book Your Journey</a>
+  </div>
+  <footer>
+    &copy; 2025 The Mountain Route Explorers | Contact: info@themountainroutetrip.com
+  </footer>
+
+</body>
+</html>
